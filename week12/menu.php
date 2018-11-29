@@ -6,7 +6,7 @@
   $password = $_POST["pass"];
   
   //Chaneg XXX to the correct number
-  $con = mysqli_connect("104.154.228.65", "student", "", "yourdatabasename");
+  $con = mysqli_connect("104.154.XXX.65", "student", "", "yourdatabasename");
 
   if (mysqli_connect_errno()) {
     echo "Failed to connect: " . mysqli_connect_error();
