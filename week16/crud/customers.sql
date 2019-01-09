@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS !yourdbname;
+CREATE DATABASE !yourdbname;
+USE !yourdbname;
+
+CREATE TABLE  `customers` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`name` VARCHAR( 100 ) NOT NULL ,
+`email` VARCHAR( 100 ) NOT NULL ,
+`mobile` VARCHAR( 100 ) NOT NULL
+) ENGINE = INNODB;
+
+SHOW TABLES;
+DESCRIBE customers;
+SELECT * FROM customers LIMIT 10;
